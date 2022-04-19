@@ -15,9 +15,9 @@ model Usuario {
   nombre     String @db.VarChar(255)
   apellido   String @db.VarChar(255)
   email      String @unique @db.VarChar(255)
-  foto       String @db.VarChar(255)
+  foto       String?
   contrasena String @db.VarChar(255)
-  posts      Post[]
+  posts      Post?
 }
 
 model Post {
