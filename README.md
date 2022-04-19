@@ -8,6 +8,12 @@ prueba técnica para Sección 15
 - MySQL
 
 ## Para Iniciar
+
+Tener instalado:
+1. Node.js
+2. NPM
+3. MySQL
+
 ```bash
 npm run dev
 # or
