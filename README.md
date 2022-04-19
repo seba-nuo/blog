@@ -13,6 +13,11 @@ Tener instalado:
 1. Node.js
 2. NPM
 3. MySQL
+4. Agregar un archivo .env con el campo DATABASE_URL
+ej:
+```bash
+DATABASE_URL="mysql://root:testuser123@localhost:3306/blog"
+```
 
 ```bash
 npm run dev
